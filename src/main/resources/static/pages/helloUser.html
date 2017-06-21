@@ -1,0 +1,6 @@
+hello user
+<button  ng-click="listUsers()"> display list users </button>
+<ul ng-repeat="user in users track by $index">
+    <li>{{user.username}}</li>
+</ul>
+<a  class="btn btn-default margin-top-5" ng-click="logout()"> Logout </a>
